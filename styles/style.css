@@ -5,14 +5,14 @@
 }
 
 html {
-  min-block-size: 100%;
+  block-size: 100%;
 }
 
 .page {
   display: flex;
   align-items: center;
-  max-inline-size: 1200px;
-  max-block-size: 100%;
+  inline-size: 1200px;
+  min-block-size: 100%;
   margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", "Oswald", sans-serif;
@@ -57,10 +57,6 @@ ol {
   block-size: 386px;
   margin-bottom: 17px;
   position: relative;
-}
-
-.preloader-template {
-  position: absolute;
 }
 
 .result__video {
@@ -219,10 +215,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   block-size: 298px;
   overflow: auto;
   position: relative;
-}
-
-.cards-list-item-template {
-  position: absolute;
 }
 
 .content__list-item {
